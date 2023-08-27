@@ -1,0 +1,22 @@
+Esta pagina web fue realizada de forma educativa para la clase 
+de diseño de front-end para la Universidad de Sonora
+de la carrera en Ingenieria en Sistemas de Informacion
+
+
+Y a continuacion se muestra los links de los objetos/material usado en esta pagina web,
+
+
+https://fonts.google.com/specimen/ADLaM+Display?preview.text=Bienvenido%20a%20Play%26Win%20en%20esta%20pagina%20vera%20todo%20tipo%20de%20interes%2Fnoticias%20de%20videojuegos&preview.text_type=custom
+
+https://coolors.co/355070-6d597a-b56576-e56b6f-eaac8b
+    https://coolors.co/visualizer/355070-6d597a-b56576-e56b6f-eaac8b
+https://coolors.co/555b6e-89b0ae-bee3db-faf9f9-ffd6ba   ////segunda opcion
+
+arcade_1.jpg : https://www.pexels.com/photo/turned-on-red-and-green-nintendo-switch-371924/
+
+logo.png: https://pixabay.com/vectors/joystick-game-controller-game-98408/
+
+Imagenes de recomendaciones,
+    tomadas por mi mismo desde la pagina de Steam
+
+
