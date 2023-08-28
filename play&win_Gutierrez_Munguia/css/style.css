@@ -97,7 +97,7 @@ section {
 
 /* TEMPORAL */
 section:not(#reseñas){
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 section > h1 {
@@ -158,6 +158,13 @@ section > h1 {
   
 }
 
+#recomendaciones{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap;
+  height: 50px; */
+}
+
 .slider-container {
   height: auto;
   width: 100vh;
@@ -165,11 +172,11 @@ section > h1 {
   display: flex;
   overflow: auto;
   scroll-snap-type: x mandatory;
-  
+  overflow: auto;
 }
 
-.slider-container .slide {
-  scroll-snap-align: start;
+.slider-container .slider {
+  scroll-snap-align: unset;
   
 }
 
@@ -178,6 +185,36 @@ section > h1 {
   height: 100%;
   object-fit: fill;
   
+}
+
+.slider-container2 {
+  height: auto;
+  /* width: 100vh; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  
+}
+
+.slider-container2 .slider2 {
+  scroll-snap-align: unset;
+  
+}
+
+.responsive{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width:1820px){
+  .responsive{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+
 }
 
 footer {
