@@ -22,8 +22,12 @@ Imagenes de recomendaciones,
 eco2023: https://www.evo.gg/news/evolution-championship-series-evo-2023-presented-by-chipotle-announces-eight-game-lineup
 
 blasphemous 2: https://www.youtube.com/watch?v=ReA837m2VgY
+embeded and style for video of blasphemous:
+https://embedresponsively.com/
 
 hollow knight icon: https://james-hunker.blogspot.com/2016/07/34-hollow-knight-icon.html
+steve minecraft icon: https://en.wikipedia.org/wiki/Steve_%28Minecraft%29
+alucard castlevania icon: https://dbx.fandom.com/wiki/Alucard_(Castlevania)
 
 
 

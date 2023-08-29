@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 document.addEventListener("DOMContentLoaded", function () {
-  var mySwiper = new Swiper(".slider-container", {
+  var mySwiper = new mySwiper(".slider-container", {
     loop: true, 
     autoplay: {
       delay: 2000, 
