@@ -255,10 +255,24 @@
   </main>
 
   <footer id="footer">
-    <h1>Formulario de contactos</h1>
-    <h3>Contactis adicionales | Redes sociales</h3>
-    <a href="./Terms&condition.txt"> Terminos y Condiciones </a>
-    <p>Desarrollares e inmobiliarios ISI &copy; 2023</p>
+    <div class = "footer_info">
+      
+      <h1>Formulario de contactos</h1>
+      <h3>Contactos adicionales | Redes sociales</h3>
+      <a href="./Terms&condition.txt"> Terminos y Condiciones </a>
+      <p>Desarrollares e inmobiliarios ISI &copy; 2023</p>
+    </div>
+
+    <div class= "footer_form">
+      <div class="footer-title">Get in Touch</div>
+      <form action="/" method="post" class="space-y-2">
+          <input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Name' />
+          <input type="email" name="g-email" class="g-inp" id="g-email" placeholder='Email' />
+          <textarea type="text" name="g-msg" class="g-inp h-40 resize-none" id="g-msg"
+              placeholder='Message...'></textarea>
+          <button type="submit" class='f-btn'>Submit</button>
+      </form>
+    </div>
   </footer>
 
   <button id="btn-ir-arriba">
