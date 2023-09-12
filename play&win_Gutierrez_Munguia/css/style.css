@@ -155,9 +155,15 @@ section>h1 {
   border-radius: 3px;
 }
 
+@media screen and (max-width:1000px) {
+  .reseñas-container {
+    flex-direction: column;
+  }
+}
+
 /*Video style */
 .embed-container {
-  position:relative;
+  position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
@@ -217,43 +223,67 @@ section>h1 {
 
 /**/
 
-section#top{
+section#top {
   background-image: linear-gradient(45deg, #355070, #B56576);
 }
 
-.top-container{
-  display: flex;
-
+.top-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-.card{
+@media screen and (max-width:1550px) {
+  .top-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:1290px) {
+  .top-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:1020px) {
+  .top-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:740px) {
+  .top-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
   position: flex;
   padding: 20px;
   margin: 20px;
   background: #B56576;
-  box-shadow: 0 10px rgb(0, 0, 0,.1);
+  box-shadow: 0 10px rgb(0, 0, 0, .1);
   border-radius: 3px;
   text-align: center;
   overflow: hidden;
 }
 
-.card img{
-  width:100%;
+.card img {
+  width: 100%;
   border-radius: 3px;
 
 }
 
-.card h3{
+.card h3 {
   margin-bottom: 10px;
   font-size: 1.5rem;
 }
 
-.card p{
+.card p {
   margin-bottom: 10px;
   color: #555;
 }
 
-button{
+button {
   cursor: pointer;
   background-color: #213246;
   color: aquamarine;
@@ -262,14 +292,14 @@ button{
   width: 100%;
   height: 42px;
   padding: 0 2rem;
-  
+
   border: none;
 
   border-radius: 21px;
   transition: color 0.5s;
 }
 
-button:hover{
+button:hover {
   background-color: #6D597A;
 }
 
@@ -300,17 +330,40 @@ button:hover{
   overflow: auto;
 }
 
+
+
+
 .slider-container .slider {
   scroll-snap-align: unset;
-
 }
 
-.slider-container img {
+
+
+.img-rec-slider {
   width: 100vh;
   height: 100%;
   object-fit: fill;
-
+  
 }
+
+@media screen and (max-width:1060px) {
+  .img-rec-slider, .slider-container {
+    width: 80vh;
+  }
+}
+
+@media screen and (max-width:910px) {
+  .img-rec-slider, .slider-container {
+    width: 60vh;
+  }
+}
+
+@media screen and (max-width:1060px) {
+  .slider2 {
+    width: 100%;
+  }
+}
+
 
 .slider-container2 {
   height: auto;
@@ -320,12 +373,41 @@ button:hover{
   flex-direction: column;
   overflow: auto;
   scroll-snap-type: y mandatory;
+  
+}
 
+@media screen and (max-width:910px) {
+  .slider-container2 {
+    width: 60vh;
+  }
+}
+.steam-iframe{
+  width: 646px;
+  height: 190px; 
+}
+
+@media (max-width:950px) {
+  .steam-iframe {
+    width: 100%;
+    height: auto; 
+  }
+}
+
+@media (max-width:680px) {
+  .steam-iframe {
+    width: 510px;
+    height: auto; 
+  }
 }
 
 .slider-container2 .slider2 {
   scroll-snap-align: unset;
+}
 
+@media (max-width:660px) {
+  .slider2 {
+    width: 100%;
+  }
 }
 
 .responsive {
@@ -342,7 +424,12 @@ button:hover{
 
 footer {
   background: #355070;
-  height: 50vh;
+  height: auto;
+}
+
+.redes-img{
+  /*height: 10px;*/
+  width: 10px;
 }
 
 #btn-ir-arriba {
@@ -397,7 +484,7 @@ footer {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1400px) {
   .column {
     flex: 50%;
     max-width: 50%;
@@ -405,9 +492,34 @@ footer {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .column {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+@media screen and (max-width: 1000px) {
+  .comentario {
+    flex: 50%;
+  }
+}
+
+.top-games-images {
+  width: 100%;
+}
+
+.space-y-2{
+  display: flex;
+  flex-direction: column;
+  width: 333px;
+}
+
+.input-form{
+  font-size: 1.2rem;
+  margin: 10px;
+  border-radius: 5px;
+}
+.tamaño-input{
+  height: 35px;
 }
